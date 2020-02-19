@@ -1,0 +1,13 @@
+version: "3"
+services:
+ server:
+  build: server/
+  command: python ./anagram_server.py
+  ports:
+   - 8080:8080
+ tests:
+  build: tests/
+  command: python ./tests.py
+  network_mode: host
+  depends_on:
+   - server
