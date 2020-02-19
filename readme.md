@@ -1,8 +1,9 @@
 # http-server
-
+```
 git clone https://github.com/alvexs/http-server.git
 cd http_server
 pip3 install -r requirements
+```
 
 ### Run server
 ```
