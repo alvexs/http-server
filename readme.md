@@ -26,3 +26,5 @@ curl localhost:8080/load -d '["foobar", "aabb", "baba", "boofar", "test"]'
 curl 'localhost:8080/get?word={word for check}'
 
 curl 'localhost:8080/get?word=foobar' => ["foobar","boofar"]
+
+## docker-compose [Not implemented]
